@@ -1,0 +1,47 @@
+{
+  "competidores": {
+    "competidor_1": {
+      "nome": "Competidor 1",
+      "apelido": "Comp1",
+      "cor": "#FF6B6B",
+      "emoji": "⚽",
+      "ativo": true
+    },
+    "competidor_2": {
+      "nome": "Competidor 2",
+      "apelido": "Comp2",
+      "cor": "#4ECDC4",
+      "emoji": "🌟",
+      "ativo": true
+    },
+    "competidor_3": {
+      "nome": "Competidor 3",
+      "apelido": "Comp3",
+      "cor": "#45B7D1",
+      "emoji": "🔥",
+      "ativo": true
+    },
+    "competidor_4": {
+      "nome": "Competidor 4",
+      "apelido": "Comp4",
+      "cor": "#96CEB4",
+      "emoji": "💫",
+      "ativo": true
+    },
+    "competidor_5": {
+      "nome": "Competidor 5",
+      "apelido": "Comp5",
+      "cor": "#DDA0DD",
+      "emoji": "🎯",
+      "ativo": true
+    }
+  },
+  "configuracoes_gerais": {
+    "nome_bolao": "Bolão Copa 2026",
+    "pontos_resultado": 15,
+    "pontos_placar": 30,
+    "data_inicio": "2026-06-11",
+    "data_fim": "2026-07-19",
+    "total_competidores": 5
+  }
+}
