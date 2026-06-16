@@ -734,8 +734,14 @@ elif pagina == "🎯 Palpites":
 
         with col2:
             lista_jogos = ["Todos os jogos"]
-            for _, r in scored[["grupo", "time_casa", "time_visitante"]].drop_duplicates().iterrows():
+
+            # Pega jogos únicos com data (para ordenar do mais recente)
+            jogos_data = scored[["grupo", "time_casa", "time_visitante", "data_jogo"]].drop_duplicates()
+            jogos_data = jogos_data.sort_values("data_jogo", ascending=False)
+
+            for _, r in jogos_data.iterrows():
                 lista_jogos.append(f"Grupo {r['grupo']} - {r['time_casa']} vs {r['time_visitante']}")
+
             jogo_sel = st.selectbox("Jogo", lista_jogos)
 
         # Filtra

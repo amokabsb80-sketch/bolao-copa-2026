@@ -481,10 +481,10 @@
     "cidade": "Seattle"
   },
   "G_R2_Irã_vs_Nova Zelândia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 2,
+    "placar_visitante": 2,
+    "atualizado_em": "2026-06-16T00:03:20.726995",
+    "status": "Realizado",
     "grupo": "G",
     "rodada": 2,
     "data": "2026-06-15",
