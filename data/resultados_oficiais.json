@@ -559,10 +559,10 @@
     "cidade": "Atlanta"
   },
   "H_R2_Arábia Saudita_vs_Uruguai": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-15T21:45:52.234624",
+    "status": "Realizado",
     "grupo": "H",
     "rodada": 2,
     "data": "2026-06-15",

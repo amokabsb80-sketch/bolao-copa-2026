@@ -39,7 +39,7 @@ python utils/validate_data.py
 ```bash
 streamlit run src/dashboard.py
 ```
-Acesse no navegador: http://localhost:8501
+Acesse no navegador: https://bolao-copa-2026-soma-8a.streamlit.app/
 
 ### 7. Menu rápido
 ```bash
