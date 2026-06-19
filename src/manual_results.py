@@ -315,14 +315,22 @@ class ManualResultsManager:
         return df
 
     def get_only_completed_results(self) -> pd.DataFrame:
-        """
-        Retorna apenas os jogos já realizados (para cálculo de pontuação)
-
-        Returns:
-            DataFrame com resultados finalizados
-        """
+        """Retorna apenas jogos já realizados"""
         df = self.get_all_results_as_dataframe()
-        return df[df['status'] == 'Realizado'].copy()
+
+        # Mostra colunas disponíveis (para debug)
+        print(f"Colunas disponíveis: {list(df.columns)}")
+
+        # Tenta encontrar a coluna correta
+        if 'status' in df.columns:
+            return df[df['status'] == 'Realizado'].copy()
+        elif 'placar_casa' in df.columns:
+            return df[df['placar_casa'].notna()].copy()
+        elif 'placar_casa_real' in df.columns:
+            return df[df['placar_casa_real'].notna()].copy()
+        else:
+            # Retorna tudo se não encontrar coluna de filtro
+            return df
 
     def get_progress(self) -> Dict:
         """

@@ -2,7 +2,7 @@
   "A_R1_México_vs_África do Sul": {
     "placar_casa": 2,
     "placar_visitante": 0,
-    "atualizado_em": "2026-06-15T00:01:59.781612",
+    "atualizado_em": "2026-06-19T17:07:43.451441",
     "status": "Realizado",
     "grupo": "A",
     "rodada": 1,
@@ -15,7 +15,7 @@
   "A_R2_Coreia do Sul_vs_República Tcheca": {
     "placar_casa": 2,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781625",
+    "atualizado_em": "2026-06-19T17:07:43.451462",
     "status": "Realizado",
     "grupo": "A",
     "rodada": 2,
@@ -26,10 +26,10 @@
     "cidade": "Guadalajara"
   },
   "A_R3_República Tcheca_vs_África do Sul": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-19T17:12:55.879293",
+    "status": "Realizado",
     "grupo": "A",
     "rodada": 3,
     "data": "2026-06-18",
@@ -39,10 +39,10 @@
     "cidade": "Atlanta"
   },
   "A_R4_México_vs_Coreia do Sul": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-19T17:12:57.720094",
+    "status": "Realizado",
     "grupo": "A",
     "rodada": 4,
     "data": "2026-06-18",
@@ -80,7 +80,7 @@
   "B_R1_Canadá_vs_Bósnia-Herzegovina": {
     "placar_casa": 1,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781640",
+    "atualizado_em": "2026-06-19T17:07:43.451482",
     "status": "Realizado",
     "grupo": "B",
     "rodada": 1,
@@ -93,7 +93,7 @@
   "B_R2_Catar_vs_Suíça": {
     "placar_casa": 1,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781643",
+    "atualizado_em": "2026-06-19T17:07:43.451487",
     "status": "Realizado",
     "grupo": "B",
     "rodada": 2,
@@ -104,10 +104,10 @@
     "cidade": "Santa Clara"
   },
   "B_R3_Suíça_vs_Bósnia-Herzegovina": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 4,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-19T17:13:28.489333",
+    "status": "Realizado",
     "grupo": "B",
     "rodada": 3,
     "data": "2026-06-18",
@@ -117,10 +117,10 @@
     "cidade": "Los Angeles"
   },
   "B_R4_Canadá_vs_Catar": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 6,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-19T17:13:30.459408",
+    "status": "Realizado",
     "grupo": "B",
     "rodada": 4,
     "data": "2026-06-18",
@@ -158,7 +158,7 @@
   "C_R1_Brasil_vs_Marrocos": {
     "placar_casa": 1,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781653",
+    "atualizado_em": "2026-06-19T17:07:43.451506",
     "status": "Realizado",
     "grupo": "C",
     "rodada": 1,
@@ -171,7 +171,7 @@
   "C_R2_Haiti_vs_Escócia": {
     "placar_casa": 0,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781655",
+    "atualizado_em": "2026-06-19T17:07:43.451513",
     "status": "Realizado",
     "grupo": "C",
     "rodada": 2,
@@ -236,7 +236,7 @@
   "D_R1_Estados Unidos_vs_Paraguai": {
     "placar_casa": 4,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781664",
+    "atualizado_em": "2026-06-19T17:07:43.451528",
     "status": "Realizado",
     "grupo": "D",
     "rodada": 1,
@@ -249,7 +249,7 @@
   "D_R2_Austrália_vs_Turquia": {
     "placar_casa": 2,
     "placar_visitante": 0,
-    "atualizado_em": "2026-06-15T00:01:59.781666",
+    "atualizado_em": "2026-06-19T17:07:43.451533",
     "status": "Realizado",
     "grupo": "D",
     "rodada": 2,
@@ -314,7 +314,7 @@
   "E_R1_Alemanha_vs_Curaçao": {
     "placar_casa": 7,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T00:01:59.781675",
+    "atualizado_em": "2026-06-19T17:07:43.451547",
     "status": "Realizado",
     "grupo": "E",
     "rodada": 1,
@@ -327,7 +327,7 @@
   "E_R2_Costa do Marfim_vs_Equador": {
     "placar_casa": 1,
     "placar_visitante": 0,
-    "atualizado_em": "2026-06-15T00:01:59.781677",
+    "atualizado_em": "2026-06-19T17:07:43.451552",
     "status": "Realizado",
     "grupo": "E",
     "rodada": 2,
@@ -392,7 +392,7 @@
   "F_R1_Holanda_vs_Japão": {
     "placar_casa": 2,
     "placar_visitante": 2,
-    "atualizado_em": "2026-06-15T00:01:59.781685",
+    "atualizado_em": "2026-06-19T17:07:43.451587",
     "status": "Realizado",
     "grupo": "F",
     "rodada": 1,
@@ -405,7 +405,7 @@
   "F_R2_Suécia_vs_Tunísia": {
     "placar_casa": 5,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T01:18:12.415402",
+    "atualizado_em": "2026-06-19T17:15:54.978615",
     "status": "Realizado",
     "grupo": "F",
     "rodada": 2,
@@ -470,7 +470,7 @@
   "G_R1_Bélgica_vs_Egito": {
     "placar_casa": 1,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T18:43:17.599199",
+    "atualizado_em": "2026-06-19T17:16:24.407391",
     "status": "Realizado",
     "grupo": "G",
     "rodada": 1,
@@ -483,7 +483,7 @@
   "G_R2_Irã_vs_Nova Zelândia": {
     "placar_casa": 2,
     "placar_visitante": 2,
-    "atualizado_em": "2026-06-16T00:03:20.726995",
+    "atualizado_em": "2026-06-19T17:16:25.782354",
     "status": "Realizado",
     "grupo": "G",
     "rodada": 2,
@@ -548,7 +548,7 @@
   "H_R1_Espanha_vs_Cabo Verde": {
     "placar_casa": 0,
     "placar_visitante": 0,
-    "atualizado_em": "2026-06-15T18:43:25.670593",
+    "atualizado_em": "2026-06-19T17:16:41.205294",
     "status": "Realizado",
     "grupo": "H",
     "rodada": 1,
@@ -561,7 +561,7 @@
   "H_R2_Arábia Saudita_vs_Uruguai": {
     "placar_casa": 1,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-15T21:45:52.234624",
+    "atualizado_em": "2026-06-19T17:16:47.811441",
     "status": "Realizado",
     "grupo": "H",
     "rodada": 2,
@@ -626,7 +626,7 @@
   "I_R1_França_vs_Senegal": {
     "placar_casa": 3,
     "placar_visitante": 1,
-    "atualizado_em": "2026-06-16T20:17:05.555039",
+    "atualizado_em": "2026-06-19T17:17:12.529505",
     "status": "Realizado",
     "grupo": "I",
     "rodada": 1,
@@ -639,7 +639,7 @@
   "I_R2_Iraque_vs_Noruega": {
     "placar_casa": 1,
     "placar_visitante": 4,
-    "atualizado_em": "2026-06-16T21:06:21.876726",
+    "atualizado_em": "2026-06-19T17:17:23.664853",
     "status": "Realizado",
     "grupo": "I",
     "rodada": 2,
@@ -704,7 +704,7 @@
   "J_R1_Argentina_vs_Argélia": {
     "placar_casa": 3,
     "placar_visitante": 0,
-    "atualizado_em": "2026-06-17T01:11:09.896751",
+    "atualizado_em": "2026-06-19T17:17:38.605326",
     "status": "Realizado",
     "grupo": "J",
     "rodada": 1,
@@ -715,10 +715,10 @@
     "cidade": "Kansas City"
   },
   "J_R2_Áustria_vs_Jordânia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 3,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-19T17:17:49.892783",
+    "status": "Realizado",
     "grupo": "J",
     "rodada": 2,
     "data": "2026-06-17",
@@ -780,10 +780,10 @@
     "cidade": "Dallas"
   },
   "K_R1_Portugal_vs_RD Congo": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-19T17:18:10.738514",
+    "status": "Realizado",
     "grupo": "K",
     "rodada": 1,
     "data": "2026-06-17",
@@ -793,10 +793,10 @@
     "cidade": "Houston"
   },
   "K_R2_Uzbequistão_vs_Colômbia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 3,
+    "atualizado_em": "2026-06-19T17:18:21.684871",
+    "status": "Realizado",
     "grupo": "K",
     "rodada": 2,
     "data": "2026-06-17",
@@ -858,10 +858,10 @@
     "cidade": "Atlanta"
   },
   "L_R1_Inglaterra_vs_Croácia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 4,
+    "placar_visitante": 2,
+    "atualizado_em": "2026-06-19T17:18:45.515255",
+    "status": "Realizado",
     "grupo": "L",
     "rodada": 1,
     "data": "2026-06-17",
@@ -871,10 +871,10 @@
     "cidade": "Dallas"
   },
   "L_R2_Gana_vs_Panamá": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-19T17:18:52.672031",
+    "status": "Realizado",
     "grupo": "L",
     "rodada": 2,
     "data": "2026-06-17",
