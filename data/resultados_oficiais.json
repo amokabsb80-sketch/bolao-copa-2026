@@ -260,10 +260,10 @@
     "cidade": "Vancouver"
   },
   "D_R3_Estados Unidos_vs_Austrália": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 2,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-19T18:20:19.851442",
+    "status": "Realizado",
     "grupo": "D",
     "rodada": 3,
     "data": "2026-06-19",
