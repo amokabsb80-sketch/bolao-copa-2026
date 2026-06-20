@@ -195,10 +195,10 @@
     "cidade": "Boston"
   },
   "C_R4_Brasil_vs_Haiti": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 3,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-20T00:14:53.375326",
+    "status": "Realizado",
     "grupo": "C",
     "rodada": 4,
     "data": "2026-06-19",

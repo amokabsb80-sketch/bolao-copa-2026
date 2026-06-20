@@ -73,26 +73,26 @@ Arthur,L,5,2026-06-27,,Croácia,Gana,Filadélfia,2.0,0.0,Arthur_previsoes.xlsx
 Arthur,L,6,2026-06-27,,Panamá,Inglaterra,Nova Jersey,1.0,7.0,Arthur_previsoes.xlsx
 Bruno,A,1,2026-06-11,,México,África do Sul,Cidade do México,-1.0,-1.0,Bruno_previsoes.xlsx
 Bruno,A,2,2026-06-11,,Coreia do Sul,República Tcheca,Guadalajara,-1.0,-1.0,Bruno_previsoes.xlsx
-Bruno,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,2.0,1.0,Bruno_previsoes.xlsx
+Bruno,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,2.0,0.0,Bruno_previsoes.xlsx
 Bruno,A,4,2026-06-18,,México,Coreia do Sul,Guadalajara,2.0,2.0,Bruno_previsoes.xlsx
 Bruno,A,5,2026-06-24,,República Tcheca,México,Cidade do México,1.0,3.0,Bruno_previsoes.xlsx
 Bruno,A,6,2026-06-24,,África do Sul,Coreia do Sul,Monterrey,0.0,3.0,Bruno_previsoes.xlsx
 Bruno,B,1,2026-06-12,,Canadá,Bósnia-Herzegovina,Toronto,100.0,99.0,Bruno_previsoes.xlsx
 Bruno,B,2,2026-06-13,,Catar,Suíça,Santa Clara,2.0,1.0,Bruno_previsoes.xlsx
-Bruno,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,3.0,2.0,Bruno_previsoes.xlsx
-Bruno,B,4,2026-06-18,,Canadá,Catar,Vancouver,1.0,1.0,Bruno_previsoes.xlsx
+Bruno,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,1.0,0.0,Bruno_previsoes.xlsx
+Bruno,B,4,2026-06-18,,Canadá,Catar,Vancouver,3.0,1.0,Bruno_previsoes.xlsx
 Bruno,B,5,2026-06-24,,Suíça,Canadá,Vancouver,2.0,1.0,Bruno_previsoes.xlsx
 Bruno,B,6,2026-06-24,,Bósnia-Herzegovina,Catar,Seattle,3.0,1.0,Bruno_previsoes.xlsx
 Bruno,C,1,2026-06-13,,Brasil,Marrocos,Nova Jersey,4.0,0.0,Bruno_previsoes.xlsx
 Bruno,C,2,2026-06-13,,Haiti,Escócia,Boston,1.0,2.0,Bruno_previsoes.xlsx
-Bruno,C,3,2026-06-19,,Escócia,Marrocos,Boston,1.0,2.0,Bruno_previsoes.xlsx
-Bruno,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,2.0,0.0,Bruno_previsoes.xlsx
+Bruno,C,3,2026-06-19,,Escócia,Marrocos,Boston,0.0,2.0,Bruno_previsoes.xlsx
+Bruno,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,3.0,0.0,Bruno_previsoes.xlsx
 Bruno,C,5,2026-06-24,,Marrocos,Haiti,Atlanta,3.0,0.0,Bruno_previsoes.xlsx
 Bruno,C,6,2026-06-24,,Escócia,Brasil,Miami,1.0,2.0,Bruno_previsoes.xlsx
 Bruno,D,1,2026-06-12,,Estados Unidos,Paraguai,Los Angeles,1.0,2.0,Bruno_previsoes.xlsx
 Bruno,D,2,2026-06-14,,Austrália,Turquia,Vancouver,1.0,2.0,Bruno_previsoes.xlsx
-Bruno,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,4.0,2.0,Bruno_previsoes.xlsx
-Bruno,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,3.0,2.0,Bruno_previsoes.xlsx
+Bruno,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,3.0,1.0,Bruno_previsoes.xlsx
+Bruno,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,1.0,3.0,Bruno_previsoes.xlsx
 Bruno,D,5,2026-06-25,,Turquia,Estados Unidos,Los Angeles,1.0,3.0,Bruno_previsoes.xlsx
 Bruno,D,6,2026-06-25,,Paraguai,Austrália,São Francisco,0.0,3.0,Bruno_previsoes.xlsx
 Bruno,E,1,2026-06-14,,Alemanha,Curaçao,Houston,3.0,0.0,Bruno_previsoes.xlsx
@@ -120,25 +120,25 @@ Bruno,H,4,2026-06-21,,Uruguai,Cabo Verde,Miami,0.0,2.0,Bruno_previsoes.xlsx
 Bruno,H,5,2026-06-26,,Cabo Verde,Arábia Saudita,Houston,2.0,0.0,Bruno_previsoes.xlsx
 Bruno,H,6,2026-06-26,,Uruguai,Espanha,Guadalajara,1.0,6.0,Bruno_previsoes.xlsx
 Bruno,I,1,2026-06-16,,França,Senegal,Nova Jersey,3.0,1.0,Bruno_previsoes.xlsx
-Bruno,I,2,2026-06-16,,Iraque,Noruega,Boston,1.0,1.0,Bruno_previsoes.xlsx
+Bruno,I,2,2026-06-16,,Iraque,Noruega,Boston,1.0,2.0,Bruno_previsoes.xlsx
 Bruno,I,3,2026-06-22,,França,Iraque,Filadélfia,4.0,0.0,Bruno_previsoes.xlsx
 Bruno,I,4,2026-06-22,,Noruega,Senegal,Nova Jersey,1.0,1.0,Bruno_previsoes.xlsx
 Bruno,I,5,2026-06-26,,Noruega,França,Boston,0.0,4.0,Bruno_previsoes.xlsx
 Bruno,I,6,2026-06-26,,Senegal,Iraque,Toronto,1.0,0.0,Bruno_previsoes.xlsx
-Bruno,J,1,2026-06-16,,Argentina,Argélia,Kansas City,4.0,1.0,Bruno_previsoes.xlsx
-Bruno,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,1.0,3.0,Bruno_previsoes.xlsx
+Bruno,J,1,2026-06-16,,Argentina,Argélia,Kansas City,4.0,0.0,Bruno_previsoes.xlsx
+Bruno,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,1.0,1.0,Bruno_previsoes.xlsx
 Bruno,J,3,2026-06-22,,Argentina,Áustria,Dallas,3.0,0.0,Bruno_previsoes.xlsx
 Bruno,J,4,2026-06-23,,Jordânia,Argélia,São Francisco,2.0,2.0,Bruno_previsoes.xlsx
 Bruno,J,5,2026-06-27,,Argélia,Áustria,Kansas City,3.0,1.0,Bruno_previsoes.xlsx
 Bruno,J,6,2026-06-27,,Jordânia,Argentina,Dallas,0.0,2.0,Bruno_previsoes.xlsx
-Bruno,K,1,2026-06-17,,Portugal,RD Congo,Houston,5.0,1.0,Bruno_previsoes.xlsx
-Bruno,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,2.0,1.0,Bruno_previsoes.xlsx
+Bruno,K,1,2026-06-17,,Portugal,RD Congo,Houston,3.0,0.0,Bruno_previsoes.xlsx
+Bruno,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,1.0,2.0,Bruno_previsoes.xlsx
 Bruno,K,3,2026-06-23,,Portugal,Uzbequistão,Houston,6.0,1.0,Bruno_previsoes.xlsx
 Bruno,K,4,2026-06-23,,Colômbia,RD Congo,Guadalajara,2.0,1.0,Bruno_previsoes.xlsx
 Bruno,K,5,2026-06-27,,Colômbia,Portugal,Miami,1.0,3.0,Bruno_previsoes.xlsx
 Bruno,K,6,2026-06-27,,RD Congo,Uzbequistão,Atlanta,1.0,1.0,Bruno_previsoes.xlsx
-Bruno,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,2.0,0.0,Bruno_previsoes.xlsx
-Bruno,L,2,2026-06-17,,Gana,Panamá,Toronto,0.0,1.0,Bruno_previsoes.xlsx
+Bruno,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,2.0,1.0,Bruno_previsoes.xlsx
+Bruno,L,2,2026-06-17,,Gana,Panamá,Toronto,1.0,1.0,Bruno_previsoes.xlsx
 Bruno,L,3,2026-06-23,,Inglaterra,Gana,Boston,3.0,0.0,Bruno_previsoes.xlsx
 Bruno,L,4,2026-06-23,,Panamá,Croácia,Toronto,1.0,2.0,Bruno_previsoes.xlsx
 Bruno,L,5,2026-06-27,,Croácia,Gana,Filadélfia,2.0,1.0,Bruno_previsoes.xlsx
@@ -217,26 +217,26 @@ Gabriel,L,5,2026-06-27,,Croácia,Gana,Filadélfia,2.0,0.0,Gabriel_previsoes.xlsx
 Gabriel,L,6,2026-06-27,,Panamá,Inglaterra,Nova Jersey,2.0,5.0,Gabriel_previsoes.xlsx
 Lorenzo,A,1,2026-06-11,,México,África do Sul,Cidade do México,-1.0,-1.0,Lorenzo_previsoes.xlsx
 Lorenzo,A,2,2026-06-11,,Coreia do Sul,República Tcheca,Guadalajara,-1.0,-1.0,Lorenzo_previsoes.xlsx
-Lorenzo,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,,,Lorenzo_previsoes.xlsx
-Lorenzo,A,4,2026-06-18,,México,Coreia do Sul,Guadalajara,,,Lorenzo_previsoes.xlsx
+Lorenzo,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,2.0,2.0,Lorenzo_previsoes.xlsx
+Lorenzo,A,4,2026-06-18,,México,Coreia do Sul,Guadalajara,1.0,3.0,Lorenzo_previsoes.xlsx
 Lorenzo,A,5,2026-06-24,,República Tcheca,México,Cidade do México,,,Lorenzo_previsoes.xlsx
 Lorenzo,A,6,2026-06-24,,África do Sul,Coreia do Sul,Monterrey,,,Lorenzo_previsoes.xlsx
 Lorenzo,B,1,2026-06-12,,Canadá,Bósnia-Herzegovina,Toronto,100.0,99.0,Lorenzo_previsoes.xlsx
 Lorenzo,B,2,2026-06-13,,Catar,Suíça,Santa Clara,1.0,3.0,Lorenzo_previsoes.xlsx
-Lorenzo,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,,,Lorenzo_previsoes.xlsx
-Lorenzo,B,4,2026-06-18,,Canadá,Catar,Vancouver,,,Lorenzo_previsoes.xlsx
+Lorenzo,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,3.0,1.0,Lorenzo_previsoes.xlsx
+Lorenzo,B,4,2026-06-18,,Canadá,Catar,Vancouver,3.0,1.0,Lorenzo_previsoes.xlsx
 Lorenzo,B,5,2026-06-24,,Suíça,Canadá,Vancouver,,,Lorenzo_previsoes.xlsx
 Lorenzo,B,6,2026-06-24,,Bósnia-Herzegovina,Catar,Seattle,,,Lorenzo_previsoes.xlsx
 Lorenzo,C,1,2026-06-13,,Brasil,Marrocos,Nova Jersey,1.0,2.0,Lorenzo_previsoes.xlsx
 Lorenzo,C,2,2026-06-13,,Haiti,Escócia,Boston,1.0,3.0,Lorenzo_previsoes.xlsx
-Lorenzo,C,3,2026-06-19,,Escócia,Marrocos,Boston,,,Lorenzo_previsoes.xlsx
-Lorenzo,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,,,Lorenzo_previsoes.xlsx
+Lorenzo,C,3,2026-06-19,,Escócia,Marrocos,Boston,1.0,3.0,Lorenzo_previsoes.xlsx
+Lorenzo,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,1.0,2.0,Lorenzo_previsoes.xlsx
 Lorenzo,C,5,2026-06-24,,Marrocos,Haiti,Atlanta,,,Lorenzo_previsoes.xlsx
 Lorenzo,C,6,2026-06-24,,Escócia,Brasil,Miami,,,Lorenzo_previsoes.xlsx
 Lorenzo,D,1,2026-06-12,,Estados Unidos,Paraguai,Los Angeles,1.0,2.0,Lorenzo_previsoes.xlsx
 Lorenzo,D,2,2026-06-14,,Austrália,Turquia,Vancouver,1.0,4.0,Lorenzo_previsoes.xlsx
-Lorenzo,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,,,Lorenzo_previsoes.xlsx
-Lorenzo,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,,,Lorenzo_previsoes.xlsx
+Lorenzo,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,4.0,2.0,Lorenzo_previsoes.xlsx
+Lorenzo,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,3.0,1.0,Lorenzo_previsoes.xlsx
 Lorenzo,D,5,2026-06-25,,Turquia,Estados Unidos,Los Angeles,,,Lorenzo_previsoes.xlsx
 Lorenzo,D,6,2026-06-25,,Paraguai,Austrália,São Francisco,,,Lorenzo_previsoes.xlsx
 Lorenzo,E,1,2026-06-14,,Alemanha,Curaçao,Houston,4.0,0.0,Lorenzo_previsoes.xlsx
@@ -247,7 +247,7 @@ Lorenzo,E,5,2026-06-25,,Curaçao,Costa do Marfim,Filadélfia,,,Lorenzo_previsoes
 Lorenzo,E,6,2026-06-25,,Equador,Alemanha,Nova Jersey,,,Lorenzo_previsoes.xlsx
 Lorenzo,F,1,2026-06-14,,Holanda,Japão,Dallas,3.0,1.0,Lorenzo_previsoes.xlsx
 Lorenzo,F,2,2026-06-14,,Suécia,Tunísia,Monterrey,2.0,1.0,Lorenzo_previsoes.xlsx
-Lorenzo,F,3,2026-06-20,,Holanda,Suécia,Houston,,,Lorenzo_previsoes.xlsx
+Lorenzo,F,3,2026-06-20,,Holanda,Suécia,Houston,4.0,1.0,Lorenzo_previsoes.xlsx
 Lorenzo,F,4,2026-06-21,,Tunísia,Japão,Monterrey,,,Lorenzo_previsoes.xlsx
 Lorenzo,F,5,2026-06-25,,Japão,Suécia,Dallas,,,Lorenzo_previsoes.xlsx
 Lorenzo,F,6,2026-06-25,,Tunísia,Holanda,Kansas City,,,Lorenzo_previsoes.xlsx
@@ -264,51 +264,51 @@ Lorenzo,H,4,2026-06-21,,Uruguai,Cabo Verde,Miami,,,Lorenzo_previsoes.xlsx
 Lorenzo,H,5,2026-06-26,,Cabo Verde,Arábia Saudita,Houston,,,Lorenzo_previsoes.xlsx
 Lorenzo,H,6,2026-06-26,,Uruguai,Espanha,Guadalajara,,,Lorenzo_previsoes.xlsx
 Lorenzo,I,1,2026-06-16,,França,Senegal,Nova Jersey,3.0,1.0,Lorenzo_previsoes.xlsx
-Lorenzo,I,2,2026-06-16,,Iraque,Noruega,Boston,,,Lorenzo_previsoes.xlsx
+Lorenzo,I,2,2026-06-16,,Iraque,Noruega,Boston,1.0,3.0,Lorenzo_previsoes.xlsx
 Lorenzo,I,3,2026-06-22,,França,Iraque,Filadélfia,,,Lorenzo_previsoes.xlsx
 Lorenzo,I,4,2026-06-22,,Noruega,Senegal,Nova Jersey,,,Lorenzo_previsoes.xlsx
 Lorenzo,I,5,2026-06-26,,Noruega,França,Boston,,,Lorenzo_previsoes.xlsx
 Lorenzo,I,6,2026-06-26,,Senegal,Iraque,Toronto,,,Lorenzo_previsoes.xlsx
-Lorenzo,J,1,2026-06-16,,Argentina,Argélia,Kansas City,,,Lorenzo_previsoes.xlsx
-Lorenzo,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,,,Lorenzo_previsoes.xlsx
+Lorenzo,J,1,2026-06-16,,Argentina,Argélia,Kansas City,4.0,0.0,Lorenzo_previsoes.xlsx
+Lorenzo,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,1.0,3.0,Lorenzo_previsoes.xlsx
 Lorenzo,J,3,2026-06-22,,Argentina,Áustria,Dallas,,,Lorenzo_previsoes.xlsx
 Lorenzo,J,4,2026-06-23,,Jordânia,Argélia,São Francisco,,,Lorenzo_previsoes.xlsx
 Lorenzo,J,5,2026-06-27,,Argélia,Áustria,Kansas City,,,Lorenzo_previsoes.xlsx
 Lorenzo,J,6,2026-06-27,,Jordânia,Argentina,Dallas,,,Lorenzo_previsoes.xlsx
-Lorenzo,K,1,2026-06-17,,Portugal,RD Congo,Houston,,,Lorenzo_previsoes.xlsx
-Lorenzo,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,,,Lorenzo_previsoes.xlsx
+Lorenzo,K,1,2026-06-17,,Portugal,RD Congo,Houston,4.0,0.0,Lorenzo_previsoes.xlsx
+Lorenzo,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,0.0,3.0,Lorenzo_previsoes.xlsx
 Lorenzo,K,3,2026-06-23,,Portugal,Uzbequistão,Houston,,,Lorenzo_previsoes.xlsx
 Lorenzo,K,4,2026-06-23,,Colômbia,RD Congo,Guadalajara,,,Lorenzo_previsoes.xlsx
 Lorenzo,K,5,2026-06-27,,Colômbia,Portugal,Miami,,,Lorenzo_previsoes.xlsx
 Lorenzo,K,6,2026-06-27,,RD Congo,Uzbequistão,Atlanta,,,Lorenzo_previsoes.xlsx
-Lorenzo,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,,,Lorenzo_previsoes.xlsx
-Lorenzo,L,2,2026-06-17,,Gana,Panamá,Toronto,,,Lorenzo_previsoes.xlsx
+Lorenzo,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,3.0,1.0,Lorenzo_previsoes.xlsx
+Lorenzo,L,2,2026-06-17,,Gana,Panamá,Toronto,3.0,2.0,Lorenzo_previsoes.xlsx
 Lorenzo,L,3,2026-06-23,,Inglaterra,Gana,Boston,,,Lorenzo_previsoes.xlsx
 Lorenzo,L,4,2026-06-23,,Panamá,Croácia,Toronto,,,Lorenzo_previsoes.xlsx
 Lorenzo,L,5,2026-06-27,,Croácia,Gana,Filadélfia,,,Lorenzo_previsoes.xlsx
 Lorenzo,L,6,2026-06-27,,Panamá,Inglaterra,Nova Jersey,,,Lorenzo_previsoes.xlsx
 Miguel,A,1,2026-06-11,,México,África do Sul,Cidade do México,-1.0,-1.0,Miguel_previsoes.xlsx
 Miguel,A,2,2026-06-11,,Coreia do Sul,República Tcheca,Guadalajara,-1.0,-1.0,Miguel_previsoes.xlsx
-Miguel,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,,,Miguel_previsoes.xlsx
-Miguel,A,4,2026-06-18,,México,Coreia do Sul,Guadalajara,,,Miguel_previsoes.xlsx
+Miguel,A,3,2026-06-18,,República Tcheca,África do Sul,Atlanta,2.0,0.0,Miguel_previsoes.xlsx
+Miguel,A,4,2026-06-18,,México,Coreia do Sul,Guadalajara,2.0,2.0,Miguel_previsoes.xlsx
 Miguel,A,5,2026-06-24,,República Tcheca,México,Cidade do México,,,Miguel_previsoes.xlsx
 Miguel,A,6,2026-06-24,,África do Sul,Coreia do Sul,Monterrey,,,Miguel_previsoes.xlsx
 Miguel,B,1,2026-06-12,,Canadá,Bósnia-Herzegovina,Toronto,100.0,99.0,Miguel_previsoes.xlsx
 Miguel,B,2,2026-06-13,,Catar,Suíça,Santa Clara,1.0,3.0,Miguel_previsoes.xlsx
-Miguel,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,,,Miguel_previsoes.xlsx
-Miguel,B,4,2026-06-18,,Canadá,Catar,Vancouver,,,Miguel_previsoes.xlsx
+Miguel,B,3,2026-06-18,,Suíça,Bósnia-Herzegovina,Los Angeles,1.0,0.0,Miguel_previsoes.xlsx
+Miguel,B,4,2026-06-18,,Canadá,Catar,Vancouver,3.0,1.0,Miguel_previsoes.xlsx
 Miguel,B,5,2026-06-24,,Suíça,Canadá,Vancouver,,,Miguel_previsoes.xlsx
 Miguel,B,6,2026-06-24,,Bósnia-Herzegovina,Catar,Seattle,,,Miguel_previsoes.xlsx
 Miguel,C,1,2026-06-13,,Brasil,Marrocos,Nova Jersey,2.0,1.0,Miguel_previsoes.xlsx
 Miguel,C,2,2026-06-13,,Haiti,Escócia,Boston,1.0,3.0,Miguel_previsoes.xlsx
-Miguel,C,3,2026-06-19,,Escócia,Marrocos,Boston,,,Miguel_previsoes.xlsx
-Miguel,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,,,Miguel_previsoes.xlsx
+Miguel,C,3,2026-06-19,,Escócia,Marrocos,Boston,0.0,2.0,Miguel_previsoes.xlsx
+Miguel,C,4,2026-06-19,,Brasil,Haiti,Filadélfia,3.0,1.0,Miguel_previsoes.xlsx
 Miguel,C,5,2026-06-24,,Marrocos,Haiti,Atlanta,,,Miguel_previsoes.xlsx
 Miguel,C,6,2026-06-24,,Escócia,Brasil,Miami,,,Miguel_previsoes.xlsx
 Miguel,D,1,2026-06-12,,Estados Unidos,Paraguai,Los Angeles,0.0,2.0,Miguel_previsoes.xlsx
 Miguel,D,2,2026-06-14,,Austrália,Turquia,Vancouver,0.0,2.0,Miguel_previsoes.xlsx
-Miguel,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,,,Miguel_previsoes.xlsx
-Miguel,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,,,Miguel_previsoes.xlsx
+Miguel,D,3,2026-06-19,,Estados Unidos,Austrália,Seattle,3.0,1.0,Miguel_previsoes.xlsx
+Miguel,D,4,2026-06-20,,Turquia,Paraguai,São Francisco,2.0,1.0,Miguel_previsoes.xlsx
 Miguel,D,5,2026-06-25,,Turquia,Estados Unidos,Los Angeles,,,Miguel_previsoes.xlsx
 Miguel,D,6,2026-06-25,,Paraguai,Austrália,São Francisco,,,Miguel_previsoes.xlsx
 Miguel,E,1,2026-06-14,,Alemanha,Curaçao,Houston,4.0,0.0,Miguel_previsoes.xlsx
@@ -336,25 +336,25 @@ Miguel,H,4,2026-06-21,,Uruguai,Cabo Verde,Miami,,,Miguel_previsoes.xlsx
 Miguel,H,5,2026-06-26,,Cabo Verde,Arábia Saudita,Houston,,,Miguel_previsoes.xlsx
 Miguel,H,6,2026-06-26,,Uruguai,Espanha,Guadalajara,,,Miguel_previsoes.xlsx
 Miguel,I,1,2026-06-16,,França,Senegal,Nova Jersey,,,Miguel_previsoes.xlsx
-Miguel,I,2,2026-06-16,,Iraque,Noruega,Boston,,,Miguel_previsoes.xlsx
+Miguel,I,2,2026-06-16,,Iraque,Noruega,Boston,0.0,2.0,Miguel_previsoes.xlsx
 Miguel,I,3,2026-06-22,,França,Iraque,Filadélfia,,,Miguel_previsoes.xlsx
 Miguel,I,4,2026-06-22,,Noruega,Senegal,Nova Jersey,,,Miguel_previsoes.xlsx
 Miguel,I,5,2026-06-26,,Noruega,França,Boston,,,Miguel_previsoes.xlsx
 Miguel,I,6,2026-06-26,,Senegal,Iraque,Toronto,,,Miguel_previsoes.xlsx
-Miguel,J,1,2026-06-16,,Argentina,Argélia,Kansas City,,,Miguel_previsoes.xlsx
-Miguel,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,,,Miguel_previsoes.xlsx
+Miguel,J,1,2026-06-16,,Argentina,Argélia,Kansas City,3.0,1.0,Miguel_previsoes.xlsx
+Miguel,J,2,2026-06-17,,Áustria,Jordânia,Santa Clara,2.0,1.0,Miguel_previsoes.xlsx
 Miguel,J,3,2026-06-22,,Argentina,Áustria,Dallas,,,Miguel_previsoes.xlsx
 Miguel,J,4,2026-06-23,,Jordânia,Argélia,São Francisco,,,Miguel_previsoes.xlsx
 Miguel,J,5,2026-06-27,,Argélia,Áustria,Kansas City,,,Miguel_previsoes.xlsx
 Miguel,J,6,2026-06-27,,Jordânia,Argentina,Dallas,,,Miguel_previsoes.xlsx
-Miguel,K,1,2026-06-17,,Portugal,RD Congo,Houston,,,Miguel_previsoes.xlsx
-Miguel,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,,,Miguel_previsoes.xlsx
+Miguel,K,1,2026-06-17,,Portugal,RD Congo,Houston,3.0,0.0,Miguel_previsoes.xlsx
+Miguel,K,2,2026-06-17,,Uzbequistão,Colômbia,Cidade do México,1.0,3.0,Miguel_previsoes.xlsx
 Miguel,K,3,2026-06-23,,Portugal,Uzbequistão,Houston,,,Miguel_previsoes.xlsx
 Miguel,K,4,2026-06-23,,Colômbia,RD Congo,Guadalajara,,,Miguel_previsoes.xlsx
 Miguel,K,5,2026-06-27,,Colômbia,Portugal,Miami,,,Miguel_previsoes.xlsx
 Miguel,K,6,2026-06-27,,RD Congo,Uzbequistão,Atlanta,,,Miguel_previsoes.xlsx
-Miguel,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,,,Miguel_previsoes.xlsx
-Miguel,L,2,2026-06-17,,Gana,Panamá,Toronto,,,Miguel_previsoes.xlsx
+Miguel,L,1,2026-06-17,,Inglaterra,Croácia,Dallas,2.0,1.0,Miguel_previsoes.xlsx
+Miguel,L,2,2026-06-17,,Gana,Panamá,Toronto,0.0,1.0,Miguel_previsoes.xlsx
 Miguel,L,3,2026-06-23,,Inglaterra,Gana,Boston,,,Miguel_previsoes.xlsx
 Miguel,L,4,2026-06-23,,Panamá,Croácia,Toronto,,,Miguel_previsoes.xlsx
 Miguel,L,5,2026-06-27,,Croácia,Gana,Filadélfia,,,Miguel_previsoes.xlsx
