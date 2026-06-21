@@ -182,10 +182,10 @@
     "cidade": "Boston"
   },
   "C_R3_Escócia_vs_Marrocos": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 0,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-20T21:22:03.367662",
+    "status": "Realizado",
     "grupo": "C",
     "rodada": 3,
     "data": "2026-06-19",
@@ -273,10 +273,10 @@
     "cidade": "Seattle"
   },
   "D_R4_Turquia_vs_Paraguai": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 0,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-20T20:56:13.487753",
+    "status": "Realizado",
     "grupo": "D",
     "rodada": 4,
     "data": "2026-06-20",
@@ -338,10 +338,10 @@
     "cidade": "Filadélfia"
   },
   "E_R3_Alemanha_vs_Costa do Marfim": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 2,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-20T20:56:54.242065",
+    "status": "Realizado",
     "grupo": "E",
     "rodada": 3,
     "data": "2026-06-20",
@@ -416,10 +416,10 @@
     "cidade": "Monterrey"
   },
   "F_R3_Holanda_vs_Suécia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 5,
+    "placar_visitante": 1,
+    "atualizado_em": "2026-06-20T20:57:20.947476",
+    "status": "Realizado",
     "grupo": "F",
     "rodada": 3,
     "data": "2026-06-20",
