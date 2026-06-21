@@ -351,10 +351,10 @@
     "cidade": "Toronto"
   },
   "E_R4_Equador_vs_Curaçao": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 0,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-21T10:37:03.007256",
+    "status": "Realizado",
     "grupo": "E",
     "rodada": 4,
     "data": "2026-06-20",
@@ -429,10 +429,10 @@
     "cidade": "Houston"
   },
   "F_R4_Tunísia_vs_Japão": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 0,
+    "placar_visitante": 4,
+    "atualizado_em": "2026-06-21T10:34:55.227221",
+    "status": "Realizado",
     "grupo": "F",
     "rodada": 4,
     "data": "2026-06-21",
