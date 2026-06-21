@@ -572,10 +572,10 @@
     "cidade": "Miami"
   },
   "H_R3_Espanha_vs_Arábia Saudita": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 4,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-21T17:26:29.435019",
+    "status": "Realizado",
     "grupo": "H",
     "rodada": 3,
     "data": "2026-06-21",
