@@ -494,10 +494,10 @@
     "cidade": "Los Angeles"
   },
   "G_R3_Bélgica_vs_Irã": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 0,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-21T18:02:26.510331",
+    "status": "Realizado",
     "grupo": "G",
     "rodada": 3,
     "data": "2026-06-21",

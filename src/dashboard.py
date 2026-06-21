@@ -524,7 +524,7 @@ if pagina == "🏠 Visão Geral":
         <div class="card" style="text-align: center;">
             <div class="metric-label">Progresso</div>
             <div class="metric-value">{}%</div>
-            <div class="metric-label">da Fase de Grupos</div>
+            <div class="metric-label">da Fase de rupos</div>
         </div>
         """.format(pct), unsafe_allow_html=True)
 
