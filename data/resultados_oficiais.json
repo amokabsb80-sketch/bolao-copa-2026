@@ -585,10 +585,10 @@
     "cidade": "Atlanta"
   },
   "H_R4_Uruguai_vs_Cabo Verde": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 2,
+    "placar_visitante": 2,
+    "atualizado_em": "2026-06-21T21:57:01.009231",
+    "status": "Realizado",
     "grupo": "H",
     "rodada": 4,
     "data": "2026-06-21",
