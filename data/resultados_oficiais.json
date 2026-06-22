@@ -507,10 +507,10 @@
     "cidade": "Los Angeles"
   },
   "G_R4_Nova Zelândia_vs_Egito": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 3,
+    "atualizado_em": "2026-06-22T09:02:41.330807",
+    "status": "Realizado",
     "grupo": "G",
     "rodada": 4,
     "data": "2026-06-21",
