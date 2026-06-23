@@ -650,10 +650,10 @@
     "cidade": "Boston"
   },
   "I_R3_França_vs_Iraque": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 3,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-22T21:48:17.687528",
+    "status": "Realizado",
     "grupo": "I",
     "rodada": 3,
     "data": "2026-06-22",
@@ -728,10 +728,10 @@
     "cidade": "Santa Clara"
   },
   "J_R3_Argentina_vs_Áustria": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 2,
+    "placar_visitante": 0,
+    "atualizado_em": "2026-06-22T21:48:54.024794",
+    "status": "Realizado",
     "grupo": "J",
     "rodada": 3,
     "data": "2026-06-22",
