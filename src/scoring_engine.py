@@ -25,7 +25,7 @@ class ScoreRules:
     """Regras de pontuação do bolão"""
 
     ACERTOU_RESULTADO = 15  # Acertou quem ganhou ou empate
-    ACERTOU_PLACAR = 30  # Acertou placar exato (já inclui o resultado)
+    ACERTOU_PLACAR = 35  # Acertou placar exato (já inclui o resultado)
 
     @classmethod
     def get_rules_description(cls) -> str:

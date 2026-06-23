@@ -1,7 +1,5 @@
 # utils/enviar_relatorio.py
-"""
-Envia relatório do bolão para WhatsApp
-"""
+"""Envia relatório do bolão para WhatsApp - Versão corrigida"""
 
 import sys
 from pathlib import Path
@@ -10,32 +8,42 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 import pandas as pd
 from datetime import datetime
-from src.process_predictions import PredictionProcessor
-from src.manual_results import ManualResultsManager
-from src.scoring_engine import ScoringEngine
+import json
 
 
 def gerar_relatorio():
-    """Gera o texto do relatório"""
+    """Gera o texto do relatório SEMPRE com dados atualizados"""
 
-    # Carrega dados
-    processor = PredictionProcessor()
-    results_manager = ManualResultsManager()
-    engine = ScoringEngine()
+    # Força recarregar dados do JSON (sem cache)
+    results_file = Path(__file__).parent.parent / "data" / "resultados_oficiais.json"
+    print(f"📂 Procurando arquivo: {results_file}")
+    print(f"📂 Existe: {results_file.exists()}")
 
-    predictions = processor.consolidate_predictions()
-    real_results = results_manager.get_only_completed_results()
+    if not results_file.exists():
+        return "⚠️ Nenhum resultado cadastrado ainda."
 
-    if predictions.empty or real_results.empty:
-        return "⚠️ Dados insuficientes para gerar relatório."
+    with open(results_file, 'r', encoding='utf-8') as f:
+        resultados = json.load(f)
 
-    scored = engine.calculate_scores(predictions, real_results)
-    leaderboard = engine.get_leaderboard(scored)
+    # Carrega previsões do CSV
+    previsoes_file = Path("data/previsoes_consolidadas.csv")
+    if previsoes_file.exists():
+        predictions = pd.read_csv(previsoes_file)
+    else:
+        return "⚠️ Execute primeiro: python src/process_predictions.py"
 
-    # Data do relatório
+    # Filtra apenas jogos realizados
+    realizados = {}
+    for match_id, dados in resultados.items():
+        if dados.get('status') == 'Realizado' and dados.get('placar_casa') is not None:
+            realizados[match_id] = dados
+
+    if not realizados:
+        return "⚠️ Nenhum jogo com resultado cadastrado."
+
     hoje = datetime.now().strftime("%d/%m/%Y %H:%M")
 
-    # Monta o relatório
+    # Monta relatório
     relatorio = f"""
 🏆 *BOLÃO COPA 2026 - RELATÓRIO*
 📅 {hoje}
@@ -46,20 +54,60 @@ def gerar_relatorio():
 
 """
 
-    # Top 5
-    medals = {1: '🥇', 2: '🥈', 3: '🥉', 4: '4º', 5: '5º'}
+    # Calcula ranking manualmente
+    ranking = {}
+    for match_id, jogo in realizados.items():
+        casa = jogo.get('casa', '')
+        visitante = jogo.get('visitante', '')
+        placar_casa = jogo.get('placar_casa', 0)
+        placar_visitante = jogo.get('placar_visitante', 0)
 
-    for _, row in leaderboard.head(5).iterrows():
-        pos = int(row['posicao'])
-        medal = medals.get(pos, f'{pos}º')
-        pontos = int(row['pontos_total'])
-        placares = int(row['placares_exatos'])
+        # Busca palpites para este jogo
+        palpites = predictions[
+            (predictions['time_casa'] == casa) &
+            (predictions['time_visitante'] == visitante)
+            ]
 
-        relatorio += f"{medal} *{row['competidor']}* - {pontos} pts"
-        if placares > 0:
-            relatorio += f" ({placares} 🎯)"
+        for _, palpite in palpites.iterrows():
+            competidor = palpite['competidor']
+            pred_casa = int(palpite['placar_casa_previsto']) if pd.notna(palpite.get('placar_casa_previsto')) else -1
+            pred_visit = int(palpite['placar_visitante_previsto']) if pd.notna(
+                palpite.get('placar_visitante_previsto')) else -1
+
+            if pred_casa == -1:
+                continue
+
+            # Calcula pontos
+            if pred_casa == placar_casa and pred_visit == placar_visitante:
+                pontos = 35
+            elif (pred_casa > pred_visit and placar_casa > placar_visitante) or \
+                    (pred_casa < pred_visit and placar_casa < placar_visitante) or \
+                    (pred_casa == pred_visit and placar_casa == placar_visitante):
+                pontos = 15
+            else:
+                pontos = 0
+
+            if competidor not in ranking:
+                ranking[competidor] = {'pontos': 0, 'placares': 0, 'resultados': 0}
+
+            ranking[competidor]['pontos'] += pontos
+            if pontos == 35:
+                ranking[competidor]['placares'] += 1
+            elif pontos == 15:
+                ranking[competidor]['resultados'] += 1
+
+    # Ordena ranking
+    ranking_ordenado = sorted(ranking.items(), key=lambda x: x[1]['pontos'], reverse=True)
+
+    medals = {0: '🥇', 1: '🥈', 2: '🥉', 3: '4º', 4: '5º'}
+    for i, (nome, dados) in enumerate(ranking_ordenado[:5]):
+        medal = medals.get(i, f'{i + 1}º')
+        relatorio += f"{medal} *{nome}* - {dados['pontos']} pts"
+        if dados['placares'] > 0:
+            relatorio += f" ({dados['placares']} 🎯)"
         relatorio += "\n"
 
+    # Últimos 5 jogos (ordenados por data)
     relatorio += """
 ━━━━━━━━━━━━━━━━━━
 
@@ -67,34 +115,54 @@ def gerar_relatorio():
 
 """
 
-    # Últimos 3 jogos com resultado
-    ultimos_jogos = real_results.tail(3)
+    jogos_ordenados = sorted(realizados.items(),
+                             key=lambda x: x[1].get('data', ''),
+                             reverse=True)
 
-    for _, jogo in ultimos_jogos.iterrows():
-        placar = f"{int(jogo['placar_casa'])} x {int(jogo['placar_visitante'])}"
+    for match_id, jogo in jogos_ordenados[:5]:
+        casa = jogo.get('casa', '')
+        visitante = jogo.get('visitante', '')
+        placar = f"{jogo.get('placar_casa', 0)} x {jogo.get('placar_visitante', 0)}"
+        data = jogo.get('data', '')
 
-        # Busca palpites para este jogo
-        palpites_jogo = scored[
-            (scored['time_casa'] == jogo['time_casa']) &
-            (scored['time_visitante'] == jogo['time_visitante'])
+        relatorio += f"\n⚽ *{casa}* {placar} *{visitante}* ({data})\n"
+
+        # Palpites para este jogo
+        palpites = predictions[
+            (predictions['time_casa'] == casa) &
+            (predictions['time_visitante'] == visitante)
             ]
 
-        relatorio += f"\n⚽ *{jogo['time_casa']}* {placar} *{jogo['time_visitante']}*\n"
+        for _, palpite in palpites.iterrows():
+            competidor = palpite['competidor']
+            pred_casa = int(palpite['placar_casa_previsto']) if pd.notna(palpite.get('placar_casa_previsto')) else -1
+            pred_visit = int(palpite['placar_visitante_previsto']) if pd.notna(
+                palpite.get('placar_visitante_previsto')) else -1
 
-        for _, palpite in palpites_jogo.iterrows():
-            pts = int(palpite['pontos'])
-            # Palpite do competidor
-            prev_casa = int(palpite['placar_casa_previsto'])
-            prev_visitante = int(palpite['placar_visitante_previsto'])
+            if pred_casa == -1:
+                continue
 
-            if palpite['acertou_placar']:
+            pred = f"{pred_casa} x {pred_visit}"
+
+            # Calcula ícone
+            if pred_casa == jogo.get('placar_casa') and pred_visit == jogo.get('placar_visitante'):
                 icon = "🎯"
-            elif palpite['acertou_resultado']:
+            elif (pred_casa > pred_visit and jogo.get('placar_casa') > jogo.get('placar_visitante')) or \
+                    (pred_casa < pred_visit and jogo.get('placar_casa') < jogo.get('placar_visitante')) or \
+                    (pred_casa == pred_visit and jogo.get('placar_casa') == jogo.get('placar_visitante')):
                 icon = "✓"
             else:
                 icon = "✗"
 
-            relatorio += f"  {icon} {palpite['competidor']}: {prev_casa} x {prev_visitante} ({pts} pts)\n"
+            # Pontos
+            if icon == "🎯":
+                pts = 35
+            elif icon == "✓":
+                pts = 15
+            else:
+                pts = 0
+
+            relatorio += f"  {icon} {competidor}: {pred} ({pts} pts)\n"
 
     relatorio += """
 ━━━━━━━━━━━━━━━━━━
@@ -105,26 +173,18 @@ def gerar_relatorio():
 
 
 def enviar_whatsapp_contato(numero: str, mensagem: str):
-    """
-    Envia mensagem para um contato específico
-
-    Args:
-        numero: Número com DDD (ex: '+5511999998888')
-        mensagem: Texto da mensagem
-    """
+    """Envia mensagem para um contato específico"""
     import pywhatkit as kit
 
     try:
-        # Envia mensagem instantânea
         kit.sendwhatmsg_instantly(
             phone_no=numero,
             message=mensagem,
-            wait_time=15,  # Aguarda 15s para o WhatsApp Web abrir
-            tab_close=True  # Fecha a aba depois
+            wait_time=15,
+            tab_close=True
         )
         print("✅ Relatório enviado com sucesso!")
         return True
-
     except Exception as e:
         print(f"❌ Erro ao enviar: {e}")
         print("\n📋 Relatório gerado (envio manual):")
@@ -143,38 +203,20 @@ if __name__ == "__main__":
 
     print("\n" + "=" * 50)
     print("Opções:")
-    print("1. Enviar para WhatsApp do filho")
-    print("2. Apenas salvar arquivo")
-    print("3. Copiar para área de transferência")
+    print("1. Enviar para WhatsApp")
+    print("2. Salvar arquivo")
+    print("3. Copiar texto")
 
     opcao = input("\nEscolha (1/2/3): ").strip()
 
     if opcao == "1":
-        # Número do filho (com DDD e código do país)
-        numero_padrao = "+5511999998888"  # ← TROQUE AQUI
-
-        numero = input(f"Número do WhatsApp (ex: {numero_padrao}): ").strip()
-        if not numero:
-            numero = numero_padrao
-
-        print(f"\n📱 Enviando para {numero}...")
-        print("⚠️  O WhatsApp Web vai abrir. Não mexa no mouse!")
-        print("⚠️  Mantenha o WhatsApp Web logado no navegador.")
-
+        numero = input("Número (ex: +5511999998888): ").strip()
         enviar_whatsapp_contato(numero, relatorio)
-
     elif opcao == "2":
-        salvar_relatorio(relatorio)
-
+        arquivo = Path("data") / f"relatorio_{datetime.now().strftime('%Y%m%d_%H%M')}.txt"
+        arquivo.parent.mkdir(exist_ok=True)
+        with open(arquivo, 'w', encoding='utf-8') as f:
+            f.write(relatorio)
+        print(f"💾 Salvo em: {arquivo}")
     elif opcao == "3":
-        # Copia para área de transferência
-        try:
-            import pyperclip
-
-            pyperclip.copy(relatorio)
-            print("✅ Relatório copiado! Cole no WhatsApp Web.")
-        except:
-            print("❌ pyperclip não instalado. Instale com: pip install pyperclip")
-            salvar_relatorio(relatorio)
-    else:
-        print("Opção inválida!")
+        print("✅ Copie o texto acima e cole no WhatsApp")
