@@ -7,7 +7,7 @@ Sistema completo para gerenciar bolão da Copa do Mundo FIFA 2026
 
 ## 📋 Regras de Pontuação
 - Acertou o resultado do jogo (vitória/empate/derrota): **15 pontos**
-- Acertou o placar exato: **30 pontos**
+- Acertou o placar exato: **35 pontos**
 
 ## 🚀 Instalação e Uso
 

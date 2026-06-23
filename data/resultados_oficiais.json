@@ -663,10 +663,10 @@
     "cidade": "Filadélfia"
   },
   "I_R4_Noruega_vs_Senegal": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 3,
+    "placar_visitante": 2,
+    "atualizado_em": "2026-06-22T23:18:40.097842",
+    "status": "Realizado",
     "grupo": "I",
     "rodada": 4,
     "data": "2026-06-22",
@@ -741,10 +741,10 @@
     "cidade": "Dallas"
   },
   "J_R4_Jordânia_vs_Argélia": {
-    "placar_casa": null,
-    "placar_visitante": null,
-    "atualizado_em": null,
-    "status": "Pendente",
+    "placar_casa": 1,
+    "placar_visitante": 2,
+    "atualizado_em": "2026-06-23T09:41:35.547910",
+    "status": "Realizado",
     "grupo": "J",
     "rodada": 4,
     "data": "2026-06-23",
